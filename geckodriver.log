@@ -1,0 +1,6 @@
+1556728072944	webdriver::httpapi	DEBUG	Creating routes
+1556728073008	geckodriver	DEBUG	Listening on 127.0.0.1:4444
+1556728073068	webdriver::server	DEBUG	-> GET /status 
+1556728073069	webdriver::server	DEBUG	<- 200 OK {"value":{"message":"","ready":true}}
+1556728073316	webdriver::server	DEBUG	-> POST /session {"capabilities":{"browserName":"firefox","acceptSslCerts":true,"acceptInsecureCerts":true,"name":"Google"},"desiredCapabilities":{"browserName":"firefox","acceptSslCerts":true,"platform":"ANY","acceptInsecureCerts":true,"name":"Google"}}
+1556728073341	webdriver::server	DEBUG	<- 500 Internal Server Error {"value":{"error":"session not created","message":"Expected browser binary location, but unable to find binary in default location, no 'moz:firefoxOptions.binary' capability provided, and no binary flag set on the command line","stacktrace":""}}
